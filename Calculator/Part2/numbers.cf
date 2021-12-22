@@ -1,0 +1,13 @@
+Plus. Exp ::= Exp "+" Exp1 ;
+Times. Exp1 ::= Exp1 "*" Exp2 ;
+
+
+Num. Exp2 ::= Integer ;
+
+
+Sub. Exp ::= Exp "-" Exp1;
+Div. Exp1 ::= Exp1  "/" Exp2
+
+
+
+Exp. Exp ::= Exp "^" Exp;
